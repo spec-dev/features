@@ -4,7 +4,7 @@
 
 -- public.users definition
 create table public.users (
-	id varchar(255) primary key,
+    id varchar(255) primary key,
     created_at timestamp with time zone default timezone('utc'::text, now()) not null
 );
 
